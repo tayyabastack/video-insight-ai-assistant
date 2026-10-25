@@ -48,7 +48,7 @@ A retrieval-augmented generation (RAG) application that lets users explore YouTu
 Clone your repository and move into its directory:
 
 ```bash
-git clone https://github.com/tayyabastack?tab=repositories
+git clone https://github.com/tayyabastack/video-insight-ai-assistant.git
 cd video-insight-ai-assistant
 ```
 
