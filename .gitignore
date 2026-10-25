@@ -1,6 +1,34 @@
 
-.venv/
-__pycache__/
+# API keys and secrets
 .env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# macOS and editor files
 .DS_Store
-*.pyc
+.vscode/
+
+# Generated vector databases
+vector_db_app/
+vector_db_backup/
+vector_db_before_*/
+
+# Local transcript and chunk data
+transcripts/
+chunks.json
+transcript.txt
+media_transcript.txt
+chunks_backup*.json
+chunks_before*.json
+
+# Local logs
+*.log
